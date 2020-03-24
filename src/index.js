@@ -2,6 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const router = require('./routes');
 
+// Mongo Connection
+require('./database');
+
 // --> GLOBALS <--
 const PORT = process.env.PORT || 3333;
 
