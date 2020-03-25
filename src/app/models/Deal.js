@@ -7,7 +7,7 @@ const DealSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-    dia: {
+    data: {
       type: String,
       required: true,
       trim: true,

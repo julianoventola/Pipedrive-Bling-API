@@ -18,7 +18,7 @@ const storeProdutoNovo = (descricao_produto, variacao_produto) =>
 
 const storePedidoNovo = (
   nome_cliente,
-  id_produto,
+  id_venda,
   descricao_produto,
   valor_produto,
   valor_parcela
@@ -30,7 +30,7 @@ const storePedidoNovo = (
   '</cliente>' +
   '<itens>' +
   '<item>' +
-  `<codigo>${id_produto}</codigo>` +
+  `<codigo>${id_venda}</codigo>` +
   `<descricao>${descricao_produto}</descricao>` +
   '<un>Un</un>' +
   '<qtde>1</qtde>' +
