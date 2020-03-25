@@ -8,7 +8,7 @@
 - Rotas:(Não há autenticações nas rotas)
 
   - /bling/contatos - (GET) - Lista todos os contatos do Bling
-  - /bling/contatos - (POST) - Salva um novo contato no BLing
+  - /bling/contatos - (POST) - Salva um novo contato(pessoa fisica) no BLing (obs: utilizar um Cpf "valido")
   - /bling/produtos - (GET) - Lista todos os produtos no Bling
   - /bling/produtos - (POST) - Salva um novo contato no Bling
   - /bling/pedidos - (GET) - Lista todos os pedidos no Bling
